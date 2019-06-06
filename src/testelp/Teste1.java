@@ -14,7 +14,7 @@ import java.util.logging.Logger;
  *
  * @author bruno
  */
-public class TesteLP {
+public class Teste1 {
 
     /**
      * @param args the command line arguments
@@ -24,10 +24,10 @@ public class TesteLP {
         try {
             ds = new DatagramSocket();
         } catch (SocketException ex) {
-            Logger.getLogger(TesteLP.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Teste1.class.getName()).log(Level.SEVERE, null, ex);
         }
-        String str = "Boas e bemvindo";
-        InetAddress ip = InetAddress.getByName("192.168.0.107");
+        String str = "Boas Romero";
+        InetAddress ip = InetAddress.getByName("192.168.0.116");
         byte[] data = str.getBytes();
         System.out.println("Enviou " + data.length + " bytes");
         DatagramPacket dp = new DatagramPacket(str.getBytes(), str.length(),
