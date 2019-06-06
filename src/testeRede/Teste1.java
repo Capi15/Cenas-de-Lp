@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testelp;
+package testeRede;
 
 import java.io.*;
 import java.net.*;

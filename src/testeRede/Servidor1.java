@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package testelp;
+package testeRede;
 
 import java.io.IOException;
 import java.net.*;
@@ -23,7 +23,7 @@ public class Servidor1 {
         } catch (SocketException ex) {
             Logger.getLogger(Servidormemoteste.class.getName()).log(Level.SEVERE, null, ex);
         }
-        String str = "Boas e bemvindo, ronaldo!!!";
+        String str = "Bemvindo!!!";
         InetAddress ip = null;
         try {
             ip = InetAddress.getByName("172.16.160.236");
