@@ -29,7 +29,7 @@ public class Teste2 {
             dout.writeUTF(strCli);
             dout.flush();
             strSer = din.readUTF();
-            System.out.println("huehue "+strSer);
+            System.out.println("cliente "+strSer);
             
         }
         dout.close();
